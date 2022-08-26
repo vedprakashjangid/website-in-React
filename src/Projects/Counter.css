@@ -1,0 +1,65 @@
+
+#project__section{
+    background-color: rgba(255, 255, 255, 0.975);
+    padding: 2vw 7vw;
+    text-align: center;
+    font-family: poppins;
+    width: 100%;
+    min-height: 400px;
+    padding: 4vw 7vw ;
+  
+    
+
+  
+
+}
+#project__section h1,h3{
+    text-align: center;
+    color: cornflowerblue;
+
+}
+#project__section .project__container{
+    /* border: 3px solid red; */
+    border-bottom: 2px solid cornflowerblue;
+}
+#project__section .project__container .counterVal{
+    width: 200px;
+    height: 70px;
+    border: 2px solid cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+#project__section .project__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+.btn{
+    margin-top: 40px;
+
+}
+.btn button{
+    padding: 20px 30px;
+    font-size: 24px;
+    color: cornflowerblue;
+    background-color: cornsilk;
+    outline: none;
+    border:3px solid cornflowerblue
+    
+}
+.inc{
+    margin-right: 30px;
+}
+.dec{
+    margin-left: 30px;
+}
+.counterVal{
+    text-align: center;
+    font-size: 40px;
+    color: cornflowerblue;
+
+}

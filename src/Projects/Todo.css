@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Mulish&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,500;0,700;1,600&family=Roboto&family=Ubuntu:wght@400;500;700&display=swap');
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+#todo__section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 4vw 0;
+    background-color: rgb(29, 50, 50);
+
+}
+
+
+.input__container{
+    width: 700px;
+    margin: 10px auto;
+    height: 50px;
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0px;
+
+}
+.input__container  input:hover{
+    background-color: coral;
+    color: white
+}
+.input__container input{
+    width: 90%;
+    padding: 10px 0 10px 20px;
+    font-size: 24px;
+    height: 100%;
+    outline: none;
+    border: none;
+    /* border: 2px solid gray; */
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+
+}
+.input__container i{
+    background-color: rgb(183, 200, 213);
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.input__container i:hover{
+    background-color: coral;
+    color: cornflowerblue;
+    color: white;
+
+}
+.todo__container{
+    margin: 50px auto 0 auto;
+    /* border: 2px solid gray; */
+    width: 700px;
+    min-height: 300px;
+    padding: 0px 0 40px 0;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.43);
+    background-color: rgb(39, 56, 56);
+
+   
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+margin-bottom: 30px;
+
+}
+.task__container{
+    margin-bottom: 5px;
+    border-bottom: 2px solid rgb(99, 98, 98);
+    width: 100%;
+   height: 50px;
+   background-color: rgb(247, 252, 250);
+   font-family: 'Roboto', sans-serif;
+    display: flex;
+   font-size: 20px;
+   align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.398);
+    border-radius: 8px;
+    padding: 0 10px;
+   
+
+}
+.task__container:hover{
+    background-color: coral;
+    color: white;
+}
+.task__container .task{
+ width: 80%;
+ 
+}
+.task__container .icon .fa-solid{
+    background-color: rgb(220, 240, 255);
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.icon .fa-trash-can{
+    color: red;
+}
+.icon .fa-pen-to-square{
+    color: green;
+}
+.btnn{
+    align-items: center;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btnn button{
+    padding: 10px 50px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+    transition: all .5s ease;
+}
+.btnn button:hover{
+    color:white;
+    background-color: red;
+    
+}
+
+
+
